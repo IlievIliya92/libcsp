@@ -118,6 +118,7 @@ def configure(ctx):
                                         'src/interfaces/csp_if_can_pbuf.c',
                                         'src/interfaces/csp_if_kiss.c',
                                         'src/interfaces/csp_if_i2c.c',
+                                        'src/interfaces/csp_if_tun.c',
                                         'src/arch/{0}/**/*.c'.format(ctx.options.with_os),
                                         ])
 
